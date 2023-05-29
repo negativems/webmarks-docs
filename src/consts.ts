@@ -1,7 +1,7 @@
 export const SITE = {
-	title: 'Documentation',
-	description: 'Your website description.',
-	defaultLanguage: 'en-us',
+	title: 'Docs',
+	description: 'Documentation for Webmarks',
+	defaultLanguage: 'es-es',
 } as const;
 
 export const OPEN_GRAPH = {
@@ -16,6 +16,7 @@ export const OPEN_GRAPH = {
 
 export const KNOWN_LANGUAGES = {
 	English: 'en',
+	Spanish: 'es',
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
@@ -26,8 +27,8 @@ export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
 	indexName: 'XXXXXXXXXX',
-	appId: 'XXXXXXXXXX',
-	apiKey: 'XXXXXXXXXX',
+	appId: 'JHWR5CRVQ4',
+	apiKey: 'd4bba565bfa68581063d1cf61ada0cce',
 };
 
 export type Sidebar = Record<
@@ -42,5 +43,13 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Page 3', link: 'en/page-3' },
 		],
 		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
-	},
+   },
+   es: {
+      'Sección de encabezado': [
+         { text: 'Introducción', link: 'es/introduction' },
+         { text: 'Página 2', link: 'es/page-2' },
+         { text: 'Página 3', link: 'es/page-3' },
+      ],
+      'Otra sección': [{ text: 'Página 4', link: 'es/page-4' }],
+   },
 };
