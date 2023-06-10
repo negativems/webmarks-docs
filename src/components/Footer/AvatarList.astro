@@ -4,7 +4,7 @@ type Props = {
    path: string;
 };
 const { path } = Astro.props;
-const resolvedPath = `docs/${path}`;
+const resolvedPath = `${path}`;
 const url = `https://api.github.com/repos/negativems/webmarks-docs/commits?path=${resolvedPath}`;
 const commitsURL = `https://github.com/negativems/webmarks-docs/commits/master/${resolvedPath}`;
 
