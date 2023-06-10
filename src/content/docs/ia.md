@@ -1,5 +1,5 @@
 ---
-title: "Page 4"
+title: "AI"
 description: "Lorem ipsum dolor sit amet - 4"
 ---
 
@@ -18,7 +18,6 @@ Nam quam dolor, pellentesque sed odio euismod, feugiat tempus tellus. Quisque ar
 ```markdown
 ---
 title: Markdown Page!
-lang: en
 layout: ~/layouts/MainLayout.astro
 ---
 

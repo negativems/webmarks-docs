@@ -1,6 +1,6 @@
 ---
-title: "Page 4"
-description: "Lorem ipsum dolor sit amet - 4"
+title: "framework"
+description: "Lorem ipsum dolor sit amet - 3"
 ---
 
 This is a fully-featured page, written in Markdown!
@@ -18,7 +18,6 @@ Nam quam dolor, pellentesque sed odio euismod, feugiat tempus tellus. Quisque ar
 ```markdown
 ---
 title: Markdown Page!
-lang: en
 layout: ~/layouts/MainLayout.astro
 ---
 

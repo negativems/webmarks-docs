@@ -1,18 +1,13 @@
 ---
-import { getLanguageFromURL, KNOWN_LANGUAGE_CODES } from '../../languages';
 import { SITE } from '../../consts';
-import AstroLogo from './AstroLogo.astro';
 import SkipToContent from './SkipToContent.astro';
 import SidebarToggle from './SidebarToggle';
-import LanguageSelect from './LanguageSelect';
 import Search from './Search';
+import Logo from './Logo.astro';
 
 type Props = {
 	currentPage: string;
 };
-
-const { currentPage } = Astro.props;
-const lang = getLanguageFromURL(currentPage);
 ---
 
 <header>
@@ -23,12 +18,11 @@ const lang = getLanguageFromURL(currentPage);
 		</div>
 		<div class="logo flex">
 			<a href="/">
-				<AstroLogo size={40} />
+				<Logo />
 				<h1>{SITE.title ?? 'Documentation'}</h1>
 			</a>
 		</div>
 		<div style="flex-grow: 1;"></div>
-		{KNOWN_LANGUAGE_CODES.length > 1 && <LanguageSelect lang={lang} client:idle />}
 		<div class="search-item">
 			<Search client:idle />
 		</div>
@@ -61,6 +55,7 @@ const lang = getLanguageFromURL(currentPage);
 		color: hsla(var(--color-base-white), 100%, 1);
 		gap: 0.25em;
 		z-index: -1;
+      margin-right: 1rem;
 	}
 
 	.logo a {
