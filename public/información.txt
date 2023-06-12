@@ -1,0 +1,5 @@
+Página web del proyecto desplegado: https://webmarks.io/
+Toda la documentación está en: https://docs.webmarks.io/
+
+Código fuente: https://github.com/negativems/webmarks-nuxt/
+Código de la documentación: https://github.com/negativems/webmarks-docs/
