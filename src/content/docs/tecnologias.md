@@ -3,35 +3,55 @@ title: "Tecnologías"
 description: "Tecnologías utilizadas en el proyecto"
 ---
 
-En esta página explicaré las tecnologías utilizadas en todo el proyecto y por qué se han elegido.
+En esta página explicaré las tecnologías utilizadas en todo el proyecto sin profundizar, ya que en el apartado de
+[Desarrollador](/desarrollador) se explica con más detalle.
 
 <!-- Imagen de la landing -->
 
 > Antes de comenzar a hablar de tecnicismos, es necesario poner en contexto sobre algunos términos.
 
+A la hora de programar una aplicación web, existen dos partes fundamentales: el **frontend** y el **backend**.
+Y para desarrollar cada una de estas partes, existen diferentes frameworks y librerías.
+<br>
 
+Los **frameworks** **frontend** más conocidos son [React](https://react.dev), [Vue](https://vuejs.org) y [Angular](https://angular.io).
+<br>
 
-|           |                                                                                                                |
-| --------- | -------------------------------------------------------------------------------------------------------------- |
-| **[React](https://react.dev)** | Librería de JavaScript para el desarrollo de interfaces de usuario. (Frontend)            |
-| **[Next](https://nextjs.org)**  | Framework de React para el desarrollo de aplicaciones web que se ejecutan en el servidor.|
-|  **Vue**  | Framework de JavaScript para el desarrollo de interfaces de usuario. (Frontend)                                |
-| **[Nuxt](https://nuxt.com)**  | Framework de Vue para el desarrollo de aplicaciones web que se ejecutan en el servidor.    |
-| **Landing** | Página de inicio de la aplicación web. |
-| **Dashboard** | 
+Pero si queremos desarrollar una aplicación web que se ejecute en el servidor, necesitamos un framework que nos permita
+hacerlo.
+<br>
 
-React y Vue tienen muchas diferencias a nivel de sintaxis y de funcionamiento.
+Los frameworks más conocidos para el desarrollo de aplicaciones web que se ejecutan en el servidor son:
+[Next](https://nextjs.org) y [Nuxt](https://nuxt.com).
+
+Aun que tengan solo una letra de diferencia, son frameworks totalmente diferentes.
+<br>
+
+**Next está desarrollado en React y Nuxt en Vue.**
+
+Tras esta breve introducción, vamos a ver las tecnologías utilizadas en el proyecto.
 
 ---
 
-Antes de comenzar el proyecto, tenía claro que quería utilizar [React](https://react.dev) con [Next](https://nextjs.org) para
-el desarrollo del frontend. Sin embargo, después varias horas de desarrollo y encontrarme con un problema en el inicio
-de sesión, decidí cambiar a [Nuxt](https://nuxt.com) que ya lo conocía y había desarrollado con él antes.
-
-Este cambió hizo que el desarrollo fuera mucho más rápido y me alivió de muchos de los problemas que tenía con React.
-
-El desarrollo del proyecto con Next está subido 
-
-### Nuxt
+### Frontend
 
 La aplicación web está desarrollada en [Nuxt](https://nuxt.com) tanto la landing como la aplicación web.
+<br><br>
+Al comenzar a desarrollar el proyecto, me decanté por utilizar **Next**, ya que quería aprender React.
+Pero tras un par de semanas y con un problema que no conseguía solucionar ya que era por un error de la última versión de Next,
+decidí cambiar a Nuxt, ya que conocía Vue y en mi caso me parece más fácil de aprender que React.
+
+### Backend
+
+El backend al igual que el frontend, está desarrollado en [Nuxt](https://nuxt.com) ya que es un framework que nos permite
+desarrollar aplicaciones web que se ejecutan en el servidor.
+
+### Base de datos
+
+La base de datos utilizada es [Supabase](https://supabase.io) que es una base de datos open source y con plan gratuito que ofrecen servicios
+de autenticación, almacenamiento y bases de datos en tiempo real (muy similar a Firebase).
+<br><br>
+![Supabase landing page](/supabase.png)
+
+![Supabase](/supabase-bookmarks.png)
+(Captura de la tabla principal 'bookmarks' de la base de datos)

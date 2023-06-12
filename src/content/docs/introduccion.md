@@ -15,20 +15,51 @@ de la aplicación, así como explicarle las distintas secciones de la misma.
 Bienvenido a la documentación de [**Webmarks**](https://webmarks.io).
 <br>
 <br>
-En esta página encontrarás toda la información técnica sobre la aplicación, así como:
+En esta página encontrarás toda la información sobre la aplicación, así como:
 - Qué es Webmarks
 - Qué problema resuelve
 - A quién va dirigido
 
-Y por otra parte, encontrarás información técnica sobre la aplicación, como:
+Y en el apartado de **[Desarrollador](/desarrollador)** encontrarás información técnica sobre la aplicación, como:
 - Qué tecnologías se han utilizado
 - Cómo se ha desarrollado y desplegado
 - Cómo se ha diseñado
 
+Entre otras cosas.
+
 ## ¿Qué es Webmarks?
 Webmarks es una aplicación web que permite **almacenar** y **organizar** marcadores de internet de forma organizada
-y centralizada. Está pensada para que el usuario pueda guardar sus marcadores y acceder a ellos
+y centralizada.
+
+Está pensada para que el usuario pueda guardar sus marcadores y acceder a ellos desde cualquier dispositivo.
+
+## Como puedo acceder
+
+Para poder utilizar Webmarks, solo necesitas un navegador web y no es necesario instalar nada.
+
+Tan solo tienes que acceder a [webmarks.io](https://webmarks.io) y podrás empezar a utilizarla.
+
+La página está pensada para poder usarse sin necesidad de registrarse, almacenando los marcadores en la base de datos
+del navegador.
+
+Si quieres tener los marcadores sincronizados entre dispositivos, puedes registrarte y acceder a ellos
 desde cualquier dispositivo.
+
+
+## Interfaz
+
+La interfaz de Webmarks es muy sencilla e intuitiva, y está pensada para que el usuario pueda acceder a sus marcadores
+de la forma más rápida posible sin distracciones.
+
+### Landing
+
+Las aplicaciones web suelen estár compuestas por una **landing page** o página de inicio, que es la primera página que
+ve el usuario al entrar en la aplicación y que suele contener información sobre la misma.
+
+En el caso de Webmarks, la landing contiene información sobre la aplicación, así como un botón para acceder a la
+aplicación.
+
+![Interfaz de Webmarks](./webmarks-interface.webp)
 
 
 ### Pero el navegador ya tiene marcadores

@@ -25,18 +25,20 @@ export const ALGOLIA = {
 };
 
 export const SIDEBAR = {
-   'Usuario': [
+   'Documentación usuario': [
       { text: 'Introducción', link: 'introduccion' },
       { text: 'Tecnologías', link: 'tecnologias' },
-      { text: 'Framework', link: 'framework' },
-      { text: 'IA', link: 'ia' },
+      { text: 'Hosting', link: 'hosting' },
       { text: 'Cloudflare', link: 'cloudflare' },
-      { text: 'Diseño', link: 'diseño' },
-      { text: 'CI/CD', link: 'cicd' },
+      { text: 'Diseño', link: 'design' },
       { text: 'Rendimiento', link: 'rendimiento' },
+      { text: 'Monetización', link: 'monetization' },
+      { text: 'IA', link: 'ia' },
+      { text: 'Herramientas', link: 'herramientas' },
    ],
-   'Desarrollador': [
+   'Documentación técnica': [
       { text: 'Instalación', link: 'instalacion' },
       { text: 'Estructura', link: 'estructura' },
+      { text: 'CI/CD', link: 'ci-cd' },
    ],
 };
