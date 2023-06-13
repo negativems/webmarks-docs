@@ -41,10 +41,27 @@ Al comenzar a desarrollar el proyecto, me decanté por utilizar **Next**, ya que
 Pero tras un par de semanas y con un problema que no conseguía solucionar ya que era por un error de la última versión de Next,
 decidí cambiar a Nuxt, ya que conocía Vue y en mi caso me parece más fácil de aprender que React.
 
+
+
+
 ### Backend
 
 El backend al igual que el frontend, está desarrollado en [Nuxt](https://nuxt.com) ya que es un framework que nos permite
 desarrollar aplicaciones web que se ejecutan en el servidor.
+
+Toda la página es server-side lo que significa que el servidor genera la página y luego la envía al cliente.
+<br><br>
+![Server side rendering](/ssr.png)
+
+#### Endpoints
+
+Los endpoints son las rutas que nos permiten acceder a los datos de la base de datos. Algunos lo llaman **API**,
+pero el término correcto es **endpoint**. Se podría decir que una API es un conjunto de endpoints.
+
+Por ejemplo, si queremos acceder a los datos de un usuario, la ruta podría ser: `https://dominio.com/api/user/1`
+
+En Webmarks, he creado un endpoint para realizar las **peticiones** a la API de **OpenAI** y de esa forma no exponer mi token
+de autenticación en el cliente.
 
 ### Base de datos
 

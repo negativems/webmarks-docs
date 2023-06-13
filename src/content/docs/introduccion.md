@@ -33,33 +33,7 @@ y centralizada.
 
 Está pensada para que el usuario pueda guardar sus marcadores y acceder a ellos desde cualquier dispositivo.
 
-## Como puedo acceder
-
-Para poder utilizar Webmarks, solo necesitas un navegador web y no es necesario instalar nada.
-
-Tan solo tienes que acceder a [webmarks.io](https://webmarks.io) y podrás empezar a utilizarla.
-
-La página está pensada para poder usarse sin necesidad de registrarse, almacenando los marcadores en la base de datos
-del navegador.
-
-Si quieres tener los marcadores sincronizados entre dispositivos, puedes registrarte y acceder a ellos
-desde cualquier dispositivo.
-
-
-## Interfaz
-
-La interfaz de Webmarks es muy sencilla e intuitiva, y está pensada para que el usuario pueda acceder a sus marcadores
-de la forma más rápida posible sin distracciones.
-
-### Landing
-
-Las aplicaciones web suelen estár compuestas por una **landing page** o página de inicio, que es la primera página que
-ve el usuario al entrar en la aplicación y que suele contener información sobre la misma.
-
-En el caso de Webmarks, la landing contiene información sobre la aplicación, así como un botón para acceder a la
-aplicación.
-
-![Interfaz de Webmarks](./webmarks-interface.webp)
+![Landing webmarks](/landing.png)
 
 
 ### Pero el navegador ya tiene marcadores
@@ -81,7 +55,7 @@ Con Webmarks esto no es un problema ya que los marcadores están disponibles des
 #### Rendimiento
 ***Webmarks hace que tu ordenador vaya más rápido***
 <br>
-Aun que sea una afirmación muy atrevida, es cierta y te voy a explicar por qué.
+Aunque sea una afirmación muy atrevida, es cierta y te voy a explicar por qué.
 <br>
 <br>
 El navegador es la **aplicación** de uso común que **más recursos consume** de todo el ordenador, optimizarlo es una de las mejores
@@ -109,6 +83,45 @@ Porque puedes hacer una búsqueda más rápida filtrando los marcadores por etiq
 ![Filtrado de etiquetas vs carpetas](./tag-filter-vs-folder.webp)
 
 Como ves en la imagen, encuentras antes el marcador que buscas filtrando por etiquetas que buscando en carpetas.
+
+
+Lo que hace a Webmarks especial es que permite organizar los marcadores mediante **etiquetas** personalizables y
+coloridas, que permiten al usuario organizarlos de la forma que quiera.
+
+Además, tiene un sistema de **búsqueda** que permite encontrar los marcadores de forma rápida.
+
+![Búsqueda de marcadores en Webmarks](/search.gif)
+
+
+
+
+## ¿Cómo puedo acceder?
+
+Para poder utilizar Webmarks, solo necesitas un navegador web y no es necesario instalar nada.
+
+Tan solo tienes que acceder a [webmarks.io](https://webmarks.io) y podrás empezar a utilizarla.
+
+La página está pensada para poder usarse sin necesidad de registrarse, almacenando los marcadores en la base de datos
+del navegador.
+
+Si quieres tener los marcadores sincronizados entre dispositivos, puedes registrarte y acceder a ellos
+desde cualquier dispositivo.
+
+
+## Interfaz
+
+La interfaz de Webmarks es muy sencilla e intuitiva, y está pensada para que el usuario pueda acceder a sus marcadores
+de la forma más rápida posible sin distracciones.
+
+### Landing
+
+Las aplicaciones web suelen estár compuestas por una **landing page** o página de inicio, que es la primera página que
+ve el usuario al entrar en la aplicación y que suele contener información sobre la misma.
+
+En el caso de Webmarks, la landing contiene información sobre la aplicación, así como un botón para acceder a la
+aplicación.
+![Interfaz de Webmarks](/landing.png)
+
 
 
 ## Cliente objetivo
